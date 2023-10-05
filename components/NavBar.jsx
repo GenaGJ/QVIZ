@@ -11,22 +11,26 @@ function NavBar({ user }) {
                 HomePage
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="/users">
                 User
               </a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a className="nav-link" href="/themes">
                 GamesQuiz
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="/auth/signup">
                 SignUp
               </a>
             </li>
-            {user && <li>Hello, Mr or Ms {user.email}</li>}
+            <li className="nav-item">
+              <a className="nav-link">
+                {user && <li>Hello, Mr or Ms {user.email}</li>}
+              </a>
+            </li>
           </ul>
         </div>
       </div>
