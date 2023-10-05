@@ -8,7 +8,7 @@ function Home({ title }) {
      <div className="start-page">
       <h1 className="start-page-title">QViz</h1>
       <div className="start-page-link-container">
-        <a href="#" className="start-page-link">
+        <a href="/question/1" className="start-page-link">
           Тема 1
         </a>
         <a href="#" className="start-page-link">
