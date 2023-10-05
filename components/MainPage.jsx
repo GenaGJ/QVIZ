@@ -7,6 +7,7 @@ function Home({ title , themes = []}) {
   return (
     <Layout title={title} >
      <div className="start-page">
+
         <h1 className="start-page-title">QViz</h1>
         <div className="start-page-link-container">
           <div className="themeCard__container flex flex-dir-col align-item-center">

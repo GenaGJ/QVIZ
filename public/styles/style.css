@@ -9501,6 +9501,22 @@ fieldset:disabled .btn {
 .start-page-link:last-child {
   margin-bottom: 0;
 }
+.btnNext {
+  padding: 10px 20px;
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnAnswer {
+  padding: 10px 20px;
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .m-50{
   margin: 50px 0;
