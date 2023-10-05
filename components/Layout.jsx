@@ -1,17 +1,13 @@
 const React = require('react');
-const Navbar = require('./Navbar');
 
-    module.exports = function Layout({title,children}) {
- return (                        
-   <html lang="en">                       
-     <head>
-       <title>{title}</title>
-
-     </head>
-     <body>
-      <Navbar/>
-      {children}
-      </body>
-   </html>
- );
+module.exports = function Layout({ title, children }) {
+  return (
+    <html lang="en">
+      <head>
+        <title>{title}</title>
+        <link href="/style.css" rel="stylesheet" /> 
+      </head>
+      <body>{children}</body>
+    </html>
+  );
 };
