@@ -5,15 +5,20 @@ const Layout = require('./Layout');
 function Home({ title }) {
   return (
     <Layout title={title} >
-        <div className="start-page">
-      <h1>Добро пожаловать в QViz!</h1>
-      <div className="theme-links">
-        <a href="/theme1">Тема 1</a>
-        <a href="/theme2">Тема 2</a>
-        <a href="/theme3">Тема 3</a>
+     <div className="start-page">
+      <h1 className="start-page-title">QViz</h1>
+      <div className="start-page-link-container">
+        <a href="#" className="start-page-link">
+          Тема 1
+        </a>
+        <a href="#" className="start-page-link">
+          Тема 2
+        </a>
+        <a href="#" className="start-page-link">
+          Тема 3
+        </a>
       </div>
     </div>
-
     </Layout>
   );
 }

@@ -9458,6 +9458,50 @@ fieldset:disabled .btn {
   background-color: #e6dbb9;
 }
 
+.start-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://i.ytimg.com/vi/YDwjnX9Q0rc/maxresdefault.jpg');
+  background-size: cover;
+}
+
+.start-page-title {
+  font-size: 48px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+}
+
+.start-page-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-page-link {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.start-page-link:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.start-page-link:last-child {
+  margin-bottom: 0;
+}
+
 /* img{
     width: 100%;
     height: 100%;
