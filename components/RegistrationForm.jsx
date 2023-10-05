@@ -7,40 +7,27 @@ function RegistrationForm({ user }) {
       <div className="containt">
         <form action="/auth/signup" method="post">
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
+            <label htmlFor="exampleInputEmail1">email</label>
             <input
               name="email"
               type="email"
               className="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
-              placeholder="Enter email"
+              placeholder="введите email"
             />
-            <small id="emailHelp" className="form-text text-muted">
-              Попробуй зарегаться
-            </small>
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputPassword1">Password</label>
+            <label htmlFor="exampleInputPassword1">password</label>
             <input
               name="password"
               type="password"
               className="form-control"
               id="exampleInputPassword1"
-              placeholder="Password"
+              placeholder="введите пароль"
             />
           </div>
-          <div className="form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-            />
-            <label className="form-check-label" htmlFor="exampleCheck1">
-              Check me out
-            </label>
-          </div>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-success">
             Submit
           </button>
         </form>

@@ -9518,6 +9518,19 @@ fieldset:disabled .btn {
   cursor: pointer;
 }
 
+.m-50{
+  margin: 50px 0;
+}
+.flex{
+  display: flex;
+}
+.flex-dir-col{
+  flex-direction: column;
+}
+.align-item-center{
+  justify-content: center;
+  align-items: center;
+}
 /* img{
     width: 100%;
     height: 100%;

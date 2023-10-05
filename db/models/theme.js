@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate({Question}) {
-      this.hasMany(Question, {foreignKey: 'theme_id'}),
+      this.hasMany(Question, {foreignKey: 'theme_id'})
     }
   }
   Theme.init({
