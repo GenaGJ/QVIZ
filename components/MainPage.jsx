@@ -1,3 +1,4 @@
+
 const React = require('react');
 const Layout = require('./Layout');
 const ThemeCard = require('../components/ThemeCard')
@@ -13,10 +14,9 @@ function Home({ title , themes = []}) {
                     <ThemeCard theme={theme} />
                 ))}
             </div>
+
       </div>
-    </div>
     </Layout>
   );
 }
-
 module.exports = Home;
