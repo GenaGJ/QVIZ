@@ -17,7 +17,7 @@ function NavBar({ user }) {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/coffees">
+              <a className="nav-link" href="/themes">
                 GamesQuiz
               </a>
             </li>
