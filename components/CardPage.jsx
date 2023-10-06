@@ -2,8 +2,6 @@ const React = require('react');
 const Layout = require('./Layout');
 
 function Card({ question, questionIndex }) {
-  console.log(question);
-  console.log(questionIndex);
   return (
     <Layout>
       <div data-id={question.id} className="cardd">
@@ -14,7 +12,14 @@ function Card({ question, questionIndex }) {
         </div>
         <h2>{question.title}</h2>
         <div className="form-group">
-          <input type="text" />
+          <input type="text" className='inputAnswer'/>
+        </div>
+        <div className="trueAnswer">
+          <p>Верно</p>
+        </div>
+        <div className="falseAnswer">
+          <p>Неверно</p>
+          <p className='answerValue'>{question.answer}</p>
         </div>
         <button type="button" className="btnAnswer">
           Oтветить

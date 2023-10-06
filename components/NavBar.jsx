@@ -1,5 +1,5 @@
 const React = require("react");
-
+//const score = require('../public/scripts/script')
 function NavBar({ user }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -29,6 +29,11 @@ function NavBar({ user }) {
             <li className="nav-item">
               <a className="nav-link">
                 {user && <li>Hello, Mr or Mrs {user.email}</li>}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">
+                {score}
               </a>
             </li>
           </ul>
