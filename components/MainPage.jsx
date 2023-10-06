@@ -1,7 +1,7 @@
 
 const React = require('react');
 const Layout = require('./Layout');
-const ThemeCard = require('../components/ThemeCard')
+const ThemeCard = require('../components/ThemeCard');
  
 function Home({ title , themes = []}) {
   return (
@@ -12,7 +12,7 @@ function Home({ title , themes = []}) {
         <div className="start-page-link-container">
           <div className="themeCard__container flex flex-dir-col align-item-center">
                     {themes.map((theme) => (
-                        <ThemeCard theme={theme} />
+                        <ThemeCard theme={theme}/>
                     ))}
           </div>
         </div>
