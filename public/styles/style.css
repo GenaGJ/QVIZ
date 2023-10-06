@@ -9533,17 +9533,18 @@ fieldset:disabled .btn {
   align-items: center;
 }
 
-.pinkButton {
-  background-color: pink;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
+.trueAnswer{
+  width: 200px;
+  background-color: greenyellow;
+  display: none;
+}
+.falseAnswer{
+  width: 200px;
+  background-color: orangered;
+  display: none;
 }
 
-.pinkButton:hover {
-  background-color: hotpink;
-}
+
 /* img{
     width: 100%;
     height: 100%;
