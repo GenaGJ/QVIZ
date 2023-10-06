@@ -2,7 +2,7 @@ const React = require("react");
 const Layout = require("./Layout");
 const ThemeCard = require("../components/ThemeCard");
 
-function Home({ title , themes = []}) {
+function Home({ title , themes = [], user}) {
   return (
     <Layout title={title} user={user}>
       <div className="start-page">
