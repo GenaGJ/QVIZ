@@ -7,8 +7,7 @@ function Layout({ title, children, user }) {
       <head>
         <title>{title}</title>
         <link href="/styles/style.css" rel="stylesheet" />
-        {/* <script defer src="/scripts/script.js" />
-        <script defer src="/scripts/add.js" /> */}
+        <script defer src="/scripts/script.js" />
       </head>
       <NavBar user={user} />
       <body>{children}</body>
