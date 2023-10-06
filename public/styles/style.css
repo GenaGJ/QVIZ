@@ -9508,6 +9508,7 @@ fieldset:disabled .btn {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 40px;
 }
 .btnAnswer {
   padding: 10px 20px;
@@ -9542,6 +9543,7 @@ fieldset:disabled .btn {
   background-color: orangered;
   display: none;
 }
+
 
 /* img{
     width: 100%;

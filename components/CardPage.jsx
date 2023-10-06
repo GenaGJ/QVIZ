@@ -1,5 +1,5 @@
-const React = require('react');
-const Layout = require('./Layout');
+const React = require("react");
+const Layout = require("./Layout");
 
 function Card({ question, questionIndex }) {
   return (
@@ -21,7 +21,7 @@ function Card({ question, questionIndex }) {
           <p>Неверно</p>
           <p className='answerValue'>{question.answer}</p>
         </div>
-        <button type="button" className="btnAnswer">
+        <button type="button" class="btn btn-warning" className="btnAnswer">
           Oтветить
         </button>
         <div>
