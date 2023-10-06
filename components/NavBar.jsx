@@ -2,7 +2,7 @@ const React = require("react");
 
 function NavBar({ user }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -28,7 +28,7 @@ function NavBar({ user }) {
             </li>
             <li className="nav-item">
               <a className="nav-link">
-                {user && <li>Hello, Mr or Ms {user.email}</li>}
+                {user && <li>Hello, Mr or Mrs {user.email}</li>}
               </a>
             </li>
           </ul>
