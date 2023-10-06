@@ -8,8 +8,9 @@ router.get("/signup", (req, res) => {
 });
 
 router.post("/signup", (req, res) => {
-  const { email, password } = req.body;
+  const { email, password, score = 0 } = req.body;
   res.app.locals.user = { email, password };
+  res.app.locals.score = {score}
   console.log(req.app.locals);
   res.redirect("/");
 });

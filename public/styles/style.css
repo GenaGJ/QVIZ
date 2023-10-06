@@ -9540,11 +9540,27 @@ fieldset:disabled .btn {
 }
 .falseAnswer{
   width: 200px;
-  background-color: orangered;
+  background-color: #ffc107;
   display: none;
 }
+.answerForm{
+  display: flex;
+  flex-direction: column;
+  background-color: greenyellow;
+  align-items: center;
+}
 
+.answerForm *{
+  margin: 20px 0;
+}
 
+.answerForm button, .answerForm div a{
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+}
 /* img{
     width: 100%;
     height: 100%;

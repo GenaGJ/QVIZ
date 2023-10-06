@@ -1,6 +1,6 @@
 const React = require("react");
 //const score = require('../public/scripts/script')
-function NavBar({ user }) {
+function NavBar({ user , score}) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
@@ -32,7 +32,7 @@ function NavBar({ user }) {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link score">
                 {score}
               </a>
             </li>
