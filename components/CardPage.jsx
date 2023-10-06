@@ -1,5 +1,5 @@
-const React = require('react');
-const Layout = require('./Layout');
+const React = require("react");
+const Layout = require("./Layout");
 
 function Card({ question, questionIndex }) {
   console.log(question);
@@ -16,7 +16,7 @@ function Card({ question, questionIndex }) {
         <div className="form-group">
           <input type="text" />
         </div>
-        <button type="button" className="btnAnswer">
+        <button type="button" class="btn btn-warning" className="btnAnswer">
           Oтветить
         </button>
         <div>

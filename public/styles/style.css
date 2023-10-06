@@ -9508,6 +9508,7 @@ fieldset:disabled .btn {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 40px;
 }
 .btnAnswer {
   padding: 10px 20px;
@@ -9530,6 +9531,18 @@ fieldset:disabled .btn {
 .align-item-center{
   justify-content: center;
   align-items: center;
+}
+
+.pinkButton {
+  background-color: pink;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pinkButton:hover {
+  background-color: hotpink;
 }
 /* img{
     width: 100%;
